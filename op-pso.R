@@ -207,7 +207,7 @@ popc<-list()
 BestScore<-c()
 order_score<-c()
 sort_score<-c()
-
+set.seed(13)
 #initialization
 row_name<-vector(mode="numeric")
 col_name<-vector(mode="numeric")
